@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Parceria Rural</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "nippo/": "https://esm.sh/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <main id="app">
+    <header class="hero">
+      <div class="hero-left">
+        <img src="/parceria-rural-logo.png" alt="Parceria Rural" class="logo" />
+        <h1>Parceria Rural</h1>
+        <p class="tag">Notícias, anúncios e informações do agronegócio.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#anuncios">Ver anúncios</a>
+          <a class="btn ghost" href="#noticias">Últimas notícias</a>
+        </div>
+        <a class="instagram" href="https://instagram.com/parceria_rural" target="_blank" rel="noopener">
+          @parceria_rural
+        </a>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <div class="hero-card">
+          <div class="meta">Última notícia</div>
+          <h2>Mercado do milho registra alta de preços</h2>
+          <p class="excerpt">Cotação sobe com demanda interna e cenário climático reduzindo oferta em algumas regiões.</p>
+        </div>
+      </div>
+    </header>
+
+    <section id="noticias" class="strip">
+      <h3 class="strip-title">Destaques</h3>
+      <div class="cards">
+        <article class="card">
+          <img src="images/tractor.png" alt="Trator no campo" />
+          <div class="card-body">
+            <h4>Tecnologia no campo</h4>
+            <p>Como a agricultura de precisão melhora produtividade e reduz custos.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/market.png" alt="Gráfico de mercado" />
+          <div class="card-body">
+            <h4>Preços e cotação</h4>
+            <p>Boletim rápido com as principais cotações do dia para grãos e insumos.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/animals.png" alt="Pecuária" />
+          <div class="card-body">
+            <h4>Pecuária e manejo</h4>
+            <p>Boas práticas para aumentar ganho de peso e saúde do rebanho.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="anuncios" class="strip muted">
+      <h3 class="strip-title">Anúncios Rápidos</h3>
+      <div class="list">
+        <div class="list-item">
+          <strong>Venda:</strong> Silo de 30t - Local: RS - <span class="tag-mini">Contato</span>
+        </div>
+        <div class="list-item">
+          <strong>Compra:</strong> Touros PO de alta destaque - <span class="tag-mini">Negociar</span>
+        </div>
+        <div class="list-item">
+          <strong>Serviço:</strong> Assistência técnica em irrigação - <span class="tag-mini">Orçamento</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="foot-left">
+        <p>Parceria Rural — Conectando campo e mercado</p>
+      </div>
+      <div class="foot-right">
+        <a href="https://instagram.com/parceria_rural" target="_blank" rel="noopener" class="social">
+          <img src="/parceria-rural-logo (1).png" alt="Instagram @parceria_rural" class="social-icon" />
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
